@@ -10,7 +10,7 @@ header{
     background-color: #EBE5CA;
 }
 
-header a, header h1, header button{
+header a, header h1, header button, header .buttons{
     background-color: #EBE5CA;
 }
 
@@ -39,6 +39,9 @@ footer{
     background-color: #EBE5CA;
 }
 
+button{
+    height: 5vh;
+}
 header img{
     background: transparent;
 }
