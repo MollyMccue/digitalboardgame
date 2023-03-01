@@ -32,6 +32,10 @@ header h1{
     width: 75vw;
 }
 
+h3 {
+    font-size:50px;
+}
+
 .Heroimg{
     width: 100vw;
     height: auto;
