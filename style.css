@@ -1,17 +1,24 @@
 *{
     background-color: #80808C;
     margin: 0;
+<<<<<<< HEAD
+    font-family: 'Comfortaa', sans-serif;
+=======
+    padding: 0;
+>>>>>>> ea675f5e86c163e30c4332fea19bcec55ed1e2b5
 }
 
 header{
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
     display: flex;
     background-color: #EBE5CA;
 }
 
-header a, header h1, header button, header .buttons{
+header a, header h1, header .buttons{
     background-color: #EBE5CA;
+    height: 15vh;
 }
 
 header a,
@@ -33,15 +40,49 @@ header h1{
     width: 100vw;
     height: auto;
     background-image: url(/img/Hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer{
     background-color: #EBE5CA;
 }
 
-button{
+.button,
+.b2{
+    border-color: transparent;
+    background-color: #D9D9D9;
     height: 5vh;
+    border-radius: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    font-size: 200%;
 }
+
+.button:hover,
+.b2:hover{
+    background-color: #9d9d9d;
+    color: #fff;
+}
+
+header button a{
+    background-color: #D9D9D9;
+    color: black;
+    height: 5vh;
+
+}
+
+.buttons{
+    height: 11vh;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 header img{
     background: transparent;
 }
