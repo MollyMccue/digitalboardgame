@@ -20,7 +20,8 @@ header button{
 }
 
 header h1{
-    font-family: ;
+    color: black;
+    /* font-family: ; */
     font-size: 500%;
     display: flex;
     align-items: center;
