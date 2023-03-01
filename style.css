@@ -44,7 +44,8 @@ footer{
     background-color: #EBE5CA;
 }
 
-.button{
+.button,
+.b2{
     border-color: transparent;
     background-color: #D9D9D9;
     height: 5vh;
@@ -57,7 +58,8 @@ footer{
     font-size: 200%;
 }
 
-.button:hover{
+.button:hover,
+.b2:hover{
     background-color: #9d9d9d;
     color: #fff;
 }
