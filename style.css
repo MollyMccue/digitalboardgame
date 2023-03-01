@@ -29,6 +29,12 @@ header h1{
     width: 75vw;
 }
 
+.Heroimg{
+    width: 100vw;
+    height: auto;
+    background-image: url(/img/Hero.png);
+}
+
 footer{
     background-color: #EBE5CA;
 }
