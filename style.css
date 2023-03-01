@@ -4,9 +4,19 @@
 }
 
 header{
+    display: flex;
     background-color: #EBE5CA;
 }
 
+header a, header h1, header button{
+    background-color: #EBE5CA;
+}
+
+
 footer{
     background-color: #EBE5CA;
+}
+
+header img{
+    background: transparent;
 }
