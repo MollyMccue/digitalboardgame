@@ -91,3 +91,9 @@ header button a{
 header img{
     background: transparent;
 }
+
+footer{
+    margin: ;
+    display: flex;
+    justify-content: space-between;
+}
