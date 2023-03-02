@@ -1,8 +1,12 @@
 *{
-    background-color: #80808C;
     margin: 0;
-    font-family: 'Comfortaa', sans-serif;
     padding: 0;
+    font-family: 'Martian Mono', monospace;
+}
+
+body{
+    background-image: linear-gradient(#C9C9DB, #DDCECE, #5C5F40, #1A1A3E,#000);
+    background-repeat: no-repeat;
 }
 
 header{
@@ -37,7 +41,7 @@ header h1{
     background-image: url(/img/Hero.png);
 }
 
-footer, ul, h5, li{
+footer, ul, h5, li, img, a{
     background-color: #EBE5CA;
 }
 
@@ -46,7 +50,14 @@ footer, ul, h5, li{
 }
 
 h3 {
-    font-size:50px;
+    font-size: 400%;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-size: 200%;
+    line-height: 150%;
 }
 
 .fivem{
@@ -69,4 +80,8 @@ footer{
     margin: ;
     display: flex;
     justify-content: space-between;
+}
+
+article{
+    color: #fff;
 }
