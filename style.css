@@ -1,15 +1,8 @@
 *{
     background-color: #80808C;
     margin: 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
     font-family: 'Comfortaa', sans-serif;
-=======
     padding: 0;
->>>>>>> ea675f5e86c163e30c4332fea19bcec55ed1e2b5
-=======
-    padding: 0;
->>>>>>> ea675f5e86c163e30c4332fea19bcec55ed1e2b5
 }
 
 header{
@@ -40,10 +33,6 @@ header h1{
     width: 75vw;
 }
 
-h3 {
-    font-size:50px;
-}
-
 .Heroimg{
     width: 100vw;
     height: auto;
@@ -52,8 +41,16 @@ h3 {
     background-size: cover;
 }
 
-footer,ul,h5,li{
+footer, ul, h5, li{
     background-color: #EBE5CA;
+}
+
+.fivem{
+    margin: 5%;
+}
+
+h3 {
+    font-size:50px;
 }
 
 .button,
@@ -93,8 +90,4 @@ header button a{
 
 header img{
     background: transparent;
-}
-
-.fivem{
-    margin: 5%;
 }
