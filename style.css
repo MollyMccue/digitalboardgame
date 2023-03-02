@@ -10,6 +10,7 @@ body{
 }
 
 header{
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
     display: flex;
@@ -21,8 +22,16 @@ header a, header h1, header button, header .buttons{
 }
 
 header a,
-header button{
+header .button{
     width: 10vw;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+    border-radius: 45%;
 }
 
 header h1{
@@ -39,6 +48,8 @@ header h1{
     width: 100vw;
     height: auto;
     background-image: url(/img/Hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer, ul, h5, li, img, a{
@@ -68,7 +79,7 @@ h3 {
     font-size:50px;
 }
 
-button{
+.button{
     height: 5vh;
 }
 
