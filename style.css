@@ -40,6 +40,10 @@ header h1{
     width: 75vw;
 }
 
+h3 {
+    font-size:50px;
+}
+
 .Heroimg{
     width: 100vw;
     height: auto;
@@ -48,7 +52,7 @@ header h1{
     background-size: cover;
 }
 
-footer{
+footer,ul,h5,li{
     background-color: #EBE5CA;
 }
 
@@ -89,4 +93,8 @@ header button a{
 
 header img{
     background: transparent;
+}
+
+.fivem{
+    margin: 5%;
 }
