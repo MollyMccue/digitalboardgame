@@ -1,7 +1,8 @@
 *{
     background-color: #80808C;
     margin: 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
+    padding: 0;
 }
 
 header{
@@ -36,8 +37,24 @@ header h1{
     background-image: url(/img/Hero.png);
 }
 
-footer{
+footer, ul, h5, li{
     background-color: #EBE5CA;
+}
+
+.fivem{
+    margin: 5%;
+}
+
+h3 {
+    font-size:50px;
+}
+
+.fivem{
+    margin: 5%;
+}
+
+h3 {
+    font-size:50px;
 }
 
 button{
@@ -48,3 +65,8 @@ header img{
     background: transparent;
 }
 
+footer{
+    margin: ;
+    display: flex;
+    justify-content: space-between;
+}
