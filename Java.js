@@ -81,10 +81,12 @@ function CharacterChoose() {
     })
 }
 
-let Player = function (x, y, speed, value) {
-    this.x = x;
-    this.y = y;
-    this.speed = speed;
-    this.sprite = 'images/' + value + '.png';
+class Player {
+    constructor(x, y, speed, value) {
+        this.x = x;
+        this.y = y;
+        this.speed = speed;
+        this.sprite = 'images/' + value + '.png';
 
-};
+    }
+}
