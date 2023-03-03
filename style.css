@@ -9,6 +9,7 @@ body{
     background-repeat: no-repeat;
 }
 
+
 header{
     height: 15vh;
     align-items: center;
@@ -109,18 +110,57 @@ footer{
     justify-content: space-between;
 }
 
-article{
-    color: #fff;
+.game-board {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    justify-content: center;
+    padding: 100px; 
+    margin: 70px;
+    margin-left: 200px; 
+  }
+
+.circle{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border: 1px solid #000;
+    background-color: #9d9d9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-table{
-width: 100%;
-display: flex;
-justify-content: center;
+.box {
+    border: 1px solid black;
 }
 
-tr,th{
-    height: 100px;
-    width: 100px;
-    background-image: linear-gradient(#9d9d9d,#d9d9d9);
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.purple{
+    background-color: purple;
+}
+
+#hidden{
+    background-color: transparent;
+    border: none;
 }
