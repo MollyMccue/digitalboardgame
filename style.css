@@ -85,11 +85,13 @@ h3 {
     font-size: 400%;
     display: flex;
     justify-content: center;
+    color: #fff;
 }
 
 p{
     font-size: 200%;
     line-height: 150%;
+    color: #fff;
 }
 
 .fivem{
