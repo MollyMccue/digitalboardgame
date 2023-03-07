@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: linear-gradient(#C9C9DB, #DDCECE, #5C5F40, #1A1A3E,#000);
+    background-image: linear-gradient(#C9C9DB, #DDCECE, #5C5F40, #2f2f5d,#2a2a2a);
     background-repeat: no-repeat;
 }
 
@@ -109,7 +109,8 @@ header img{
 
 footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
 }
 
 .game-board {
