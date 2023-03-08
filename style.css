@@ -108,9 +108,26 @@ header img{
 }
 
 footer{
+    height:  280px;
     display: flex;
     justify-content: space-evenly;
 
+}
+
+footer h5{
+    font-size: 2vh;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer .creators li{
+    line-height: 80px;
+}
+
+footer .Contact li{
+    line-height: 40px;
 }
 
 .game-board {
