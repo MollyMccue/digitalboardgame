@@ -203,6 +203,10 @@ footer .Contact li a:hover{
     background-color: transparent;
 }
 
+#hidden img{
+    background-color: transparent;
+}
+
 .click{
     display: flex;
     flex-direction: row;
