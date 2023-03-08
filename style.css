@@ -174,3 +174,29 @@ footer{
 .box img{
     background-color: transparent;
 }
+
+.click{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+}
+
+.characters{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.frog{
+    display: flex;
+    flex-direction: row;
+}
+
+.characters img{
+    width: 25%;
+    height: 7vh;
+    background-color: transparent;
+}
+
+.frog
