@@ -218,12 +218,9 @@ footer .Contact li a:hover{
 }
 
 .Players{
-    width: 20%;
+    width: 30%;
 }
 
-.Dice{
-    width: 10%;
-}
 
 .characters{
     justify-content: space-evenly;
