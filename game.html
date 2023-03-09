@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCPLand</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="Scream-When-Youre-Ready-To-Die.woff2" as="font" type="font/woff2" crossorigin>
+
 </head>
 <body>
     <header>
@@ -24,7 +26,15 @@
             
         </div>
 
-        <div class="Players border"></div>
+        <div class="Players border">
+            <label for="Amount">How Many Players will there be:</label>
+            <select name="num-players" id="players">
+                <option value="p1">1 Player</option>
+                <option value="p2">2 Players</option>
+                <option value="p3">3 Players</option>
+                <option value="p4">4 Players</option>
+            </select>
+        </div>
 
         <div class="characters border">
             <h2>Choose Character:</h2>

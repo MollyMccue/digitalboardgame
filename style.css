@@ -2,6 +2,16 @@
     margin: 0;
     padding: 0;
     font-family: 'Martian Mono', monospace;
+    https://chequered.ink/font-licenses-for-nal-fonts/
+}
+
+@font-face {
+    font-family: 'Scream When You\'re Ready To Die';
+    src: url('Scream-When-Youre-Ready-To-Die.woff2') format('woff2'),
+        url('Scream-When-Youre-Ready-To-Die.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 body{
@@ -221,7 +231,25 @@ footer .Contact li a:hover{
 }
 
 .Players{
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 30%;
+}
+
+.Players select{
+    font-family: 'Scream When You\'re Ready To Die';
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+.Players select option{
+    font-family: 'Scream When You\'re Ready To Die';
+    font-size: 10px;
 }
 
 
@@ -248,5 +276,3 @@ footer .Contact li a:hover{
 .border{
     border: solid black 1px;
 }
-
-.grit
