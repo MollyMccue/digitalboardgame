@@ -193,6 +193,9 @@ footer .Contact li a:hover{
 .purple{
     background-color: purple;
 }
+.omni{
+    background-image: linear-gradient(blue,red,green,orange,yellow,purple);
+}
 
 #hidden{
     background-color: transparent;
@@ -245,3 +248,5 @@ footer .Contact li a:hover{
 .border{
     border: solid black 1px;
 }
+
+.grit
