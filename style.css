@@ -147,8 +147,7 @@ footer .Contact li a:hover{
     grid-template-rows: 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px;
     justify-content: center;
     padding: 100px; 
-    margin: 70px;
-    margin-left: 200px; 
+    margin-bottom: 100px;
   }
 
 .circle{
@@ -195,6 +194,7 @@ footer .Contact li a:hover{
 }
 .omni{
     background-image: linear-gradient(blue,red,green,orange,yellow,purple);
+    border: 0 transparent;
 }
 
 #hidden{
@@ -241,7 +241,7 @@ footer .Contact li a:hover{
 .characters img{
     align-items: center;
     width: 25%;
-    height: 7vh;
+    height: 9vh;
     background-color: transparent;
 }
 
