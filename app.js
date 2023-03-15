@@ -1,23 +1,3 @@
-// let gritBoard = [
-//     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-//     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-//     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-//     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-//     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-//     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-//     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-//     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-//     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-//     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-//     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-//     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-//     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-//     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-//     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-//     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-// ];
-
-
 // setup game board for play
 const gameBoard = []; // define game board
     for(let i = 0; i < boxes.length; i++) {
@@ -96,6 +76,46 @@ function winner() {
     if (playerFourLocation === parseInt(winSquare.id.substring(2))) return playerFourLocation
   }
 
+//define render
+function render() {
+    if (turn === 1) {
+        boardSquares.forEach((square, index) => {
+            square.style.background = boardColors[idx]
+            if (playerOneLocation === parseInt(square.id.substring(2))) {
+                square.appendChild(playerOneToken)
+            }
+        })
+    } else if (turn === 2) {
+        boardSquares.forEach((square, index) => {
+            square.style.background = boardColors[idx]
+            if (playerTwoLocation === parseInt(square.id.substring(2))) {
+                square.appendChild(playerTwoToken)
+            }
+        })
+    } else if (turn === 3) {
+        boardSquares.forEach((square, index) => {
+            square.style.background = boardColors[idx]
+            if (playerThreeLocation === parseInt(square.id.substring(2))) {
+                square.appendChild(playerThreeToken)
+            }
+        })
+    } else if (turn === 4) {
+        boardSquares.forEach((square, index) => {
+            square.style.background = boardColors[idx]
+            if (playerOneLocation === parseInt(square.id.substring(2))) {
+                square.appendChild(playerOneToken)
+            }
+        })
+    }
+}
+
+if (isWinner) {
+    message.innerText = `Congratulations player ${isWinner === 1 ? 'One' : 'Two'}!`
+} else {
+  message.innerText = `It's time for player ${turn === 1 ? 'One' : 'Two'} to choose a card!`
+}
+}
+
 //define special actions
 const actions = {
     skip: {
@@ -131,6 +151,5 @@ const specialSpaces = {
         spaces: []
     }
 };
-
 
 actions.ladder.action(5)
