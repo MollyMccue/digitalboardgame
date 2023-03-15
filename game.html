@@ -16,7 +16,7 @@
         <div class="buttons">
             <a href="#.html" class="b2">Start</a>
             
-            <a href="#.html" class="b2">Reset</a>
+            <a id="reset-button" class="b2">Reset</a>
         </div>
     </header>
     
@@ -52,18 +52,18 @@
         <container class="play-area">
             <div class="game-board" id="gridBoard">
                 <!-- row 1 -->
-                <div class="circle" id="1">Start</div>
-                <div class="box purple" id="2"><img src="/img/SCP999.png" alt="999-tile" width="80%"></div>
-                <div class="box blue" id="3"></div>
-                <div class="box red" id="4"><img src="/img/Reroll.png" alt="Reroll"></div>
-                <div class="box green" id="5"><img src="/img/Soldier-removebg-preview.png" alt="999-tile" width="55%"></div>
-                <div class="box orange" id="6"></div>
-                <div class="box yellow" id="7"><img src="/img/arrow.png" alt="999-tile" width="30%"></div>
-                <div class="box purple" id="8"></div>
-                <div class="box blue" id="9"></div>
-                <div class="box red" id="10"></div>
-                <div class="box green" id="11"></div>
-                <div class="box orange" id="12"></div>
+                <div class="circle" id="sq1">Start</div>
+                <div class="box purple" id="sq2"><img src="/img/SCP999.png" alt="999-tile" width="80%"></div>
+                <div class="box blue" id="sq3"></div>
+                <div class="box red" id="sq4"><img src="/img/Reroll.png" alt="Reroll"></div>
+                <div class="box green" id="sq5"><img src="/img/Soldier-removebg-preview.png" alt="999-tile" width="55%"></div>
+                <div class="box orange" id="sq6"></div>
+                <div class="box yellow" id="sq7"><img src="/img/arrow.png" alt="999-tile" width="30%"></div>
+                <div class="box purple" id="sq8"></div>
+                <div class="box blue" id="sq9"></div>
+                <div class="box red" id="sq10"></div>
+                <div class="box green" id="sq11"></div>
+                <div class="box orange" id="sq12"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
@@ -76,12 +76,9 @@
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div id="hidden"><img src="/img/Ladder.png" alt="ladder" width="90%"></div>
-                <div id="hidden"></div>
-                <div id="hidden"></div>
-                <div id="hidden"></div>
-                <div id="hidden"></div>
-                <div class="box yellow" id="13"></div>
+                <div class="ladder1" id="hidden"><img src="/img/Ladder.png" alt="ladder" height="100%"></div>
+                <div class="example" id="hidden"></div>
+                <div class="box yellow" id="sq13"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
@@ -94,12 +91,7 @@
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div id="hidden"></div>
-                <div id="hidden"></div>
-                <div id="hidden"></div>
-                <div id="hidden"></div>
-                <div id="hidden"></div>
-                <div class="box purple" id="14"></div>
+                <div class="box purple" id="sq14"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
@@ -112,16 +104,16 @@
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div class="box purple" id="20"></div>
-                <div class="box yellow" id="19"></div>
-                <div class="box orange" id="18"></div>
-                <div class="box green" id="17"></div>
-                <div class="box red" id="16"></div>
-                <div class="box blue" id="15"></div>
+                <div class="box purple" id="sq20"></div>
+                <div class="box yellow" id="sq19"></div>
+                <div class="box orange" id="sq18"></div>
+                <div class="box green" id="sq17"></div>
+                <div class="box red" id="sq16"></div>
+                <div class="box blue" id="sq15"></div>
                 <div id="hidden"></div>
-                <div class="box green" id="47"></div>
-                <div class="box orange" id="48"></div>
-                <div class="box yellow" id="49"><img src="/img/3008Tile-removebg-preview.png" alt="999-tile" width="55%"></div>
+                <div class="box green" id="sq47"></div>
+                <div class="box orange" id="sq48"></div>
+                <div class="box yellow" id="sq49"><img src="/img/3008Tile-removebg-preview.png" alt="3008-tile" width="55%"></div>
 
                 <!-- row 5 -->
                 <div id="hidden"></div>
@@ -130,37 +122,37 @@
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div class="box blue" id="21"></div>
+                <div class="box blue" id="sq21"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div class="box red" id="46"><img src="/img/3008Tile-removebg-preview.png" alt="999-tile" width="55%"></div>
+                <div class="box red" id="sq46"><img src="/img/3008Tile-removebg-preview.png" alt="999-tile" width="55%"></div>
                 <div id="hidden"></div>
-                <div class="box purple" id="50"></div>
+                <div class="box purple" id="sq50"></div>
 
                 <!-- row 6 -->
-                <div class="box red" id="28"></div>
-                <div class="box blue" id="27"></div>
-                <div class="box purple" id="26"></div>
-                <div class="box yellow" id="25"></div>
-                <div class="box orange" id="24"></div>
-                <div class="box green" id="23"></div>
-                <div class="box red" id="22"></div>
+                <div class="box red" id="sq28"></div>
+                <div class="box blue" id="sq27"></div>
+                <div class="box purple" id="sq26"></div>
+                <div class="box yellow" id="sq25"></div>
+                <div class="box orange" id="sq24"></div>
+                <div class="box green" id="sq23"></div>
+                <div class="box red" id="sq22"></div>
                 <div id="hidden"></div>
-                <div class="box red" id="40"></div>
-                <div class="box green" id="41"></div>
-                <div class="box orange" id="42"></div>
-                <div class="box yellow" id="43"></div>
-                <div class="box purple" id="44"></div>
-                <div class="box blue" id="45"></div>
+                <div class="box red" id="sq40"></div>
+                <div class="box green" id="sq41"></div>
+                <div class="box orange" id="sq42"></div>
+                <div class="box yellow" id="sq43"></div>
+                <div class="box purple" id="sq44"></div>
+                <div class="box blue" id="sq45"></div>
                 <div id="hidden"></div>
-                <div class="box blue" id="51"></div>
+                <div class="box blue" id="sq51"></div>
 
                 <!-- row 7 -->
-                <div class="box green" id="29"></div>
+                <div class="box green" id="sq29"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
@@ -168,32 +160,32 @@
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div class="box blue" id="39"></div>
+                <div class="box blue" id="sq39"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div class="box red" id="52"></div>
+                <div class="box red" id="sq52"></div>
 
                 <!-- row 8 -->
-                <div class="box orange" id="30"></div>
-                <div class="box yellow" id="31"></div>
-                <div class="box purple" id="32"></div>
-                <div class="box blue" id="33"></div>
-                <div class="box red" id="34"></div>
-                <div class="box green" id="35"></div>
-                <div class="box orange" id="36"></div>
-                <div class="box yellow" id="37"></div>
-                <div class="box purple" id="38"><img src="/img/arrow.png" alt="999-tile" width="30%"></div>
+                <div class="box orange" id="sq30"></div>
+                <div class="box yellow" id="sq31"></div>
+                <div class="box purple" id="sq32"></div>
+                <div class="box blue" id="sq33"></div>
+                <div class="box red" id="sq34"></div>
+                <div class="box green" id="sq35"></div>
+                <div class="box orange" id="sq36"></div>
+                <div class="box yellow" id="sq37"></div>
+                <div class="box purple" id="sq38"><img src="/img/arrow.png" alt="999-tile" width="30%"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div class="box yellow" id="61"></div>
-                <div class="box orange" id="60"></div>
-                <div class="box green" id="59"></div>
+                <div class="box yellow" id="sq61"></div>
+                <div class="box orange" id="sq60"></div>
+                <div class="box green" id="sq59"></div>
                 <div id="hidden"></div>
-                <div class="box green" id="53"></div>
+                <div class="box green" id="sq53"></div>
 
                 <!-- row 9 -->
                 <div id="hidden"></div>
@@ -207,50 +199,50 @@
                 <div id="hidden"><img src="/img/Ladder.png" alt="ladder" width="90%"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div class="box purple" id="62"></div>
+                <div class="box purple" id="sq62"></div>
                 <div id="hidden"></div>
-                <div class="box red" id="58"></div>
+                <div class="box red" id="sq58"></div>
                 <div id="hidden"></div>
-                <div class="box orange" id="54"></div>
+                <div class="box orange" id="sq54"></div>
 
                 <!-- row 10 -->
-                <div class="box red" id="76"></div>
-                <div class="box blue" id="75"></div>
-                <div class="box purple" id="74"></div>
-                <div class="box yellow" id="73"></div>
-                <div class="box orange" id="72"></div>
-                <div class="box green" id="71"></div>
-                <div class="box red" id="70"></div>
+                <div class="box red" id="sq76"></div>
+                <div class="box blue" id="sq75"></div>
+                <div class="box purple" id="sq74"></div>
+                <div class="box yellow" id="sq73"></div>
+                <div class="box orange" id="sq72"></div>
+                <div class="box green" id="sq71"></div>
+                <div class="box red" id="sq70"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div class="box blue" id="63"></div>
+                <div class="box blue" id="sq63"></div>
                 <div id="hidden"></div>
-                <div class="box blue" id="57"></div>
-                <div class="box purple" id="56"></div>
-                <div class="box yellow" id="55"></div>
+                <div class="box blue" id="sq57"></div>
+                <div class="box purple" id="sq56"></div>
+                <div class="box yellow" id="sq55"></div>
 
                 <!-- row 11 -->
-                <div class="box green" id="77"></div>
+                <div class="box green" id="sq77"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div class="box blue" id="69"></div>
-                <div class="box purple" id="68"></div>
-                <div class="box yellow" id="67"><img src="/img/snakereptile.png" alt="999-tile" width="65%"></div>
-                <div class="box orange" id="66"></div>
-                <div class="box green" id="65"></div>
-                <div class="box red" id="64"></div>
+                <div class="box blue" id="sq69"></div>
+                <div class="box purple" id="sq68"></div>
+                <div class="box yellow" id="sq67"><img src="/img/snakereptile.png" alt="999-tile" width="65%"></div>
+                <div class="box orange" id="sq66"></div>
+                <div class="box green" id="sq65"></div>
+                <div class="box red" id="sq64"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
 
                 <!-- row 12 -->
-                <div class="box orange" id="78"></div>
+                <div class="box orange" id="sq78"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
@@ -268,40 +260,40 @@
                 <div id="hidden"></div>
 
                 <!-- row 13 -->
-                <div class="box yellow" id="79"></div>
+                <div class="box yellow" id="sq79"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div class="box purple" id="86"></div>
-                <div class="box blue" id="87"></div>
-                <div class="box red" id="88"></div>
+                <div class="box purple" id="sq86"></div>
+                <div class="box blue" id="sq87"></div>
+                <div class="box red" id="sq88"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div class="box orange" id="96"></div>
-                <div class="box yellow" id="97"></div>
-                <div class="box purple" id="98"></div>
-                <div class="box blue" id="99"></div>
-                <div class="box red" id="100"></div>
+                <div class="box orange" id="sq96"></div>
+                <div class="box yellow" id="sq97"></div>
+                <div class="box purple" id="sq98"></div>
+                <div class="box blue" id="sq99"></div>
+                <div class="box red" id="sq100"></div>
 
                 <!-- row 14 -->
-                <div class="box purple" id="80"></div>
-                <div class="box blue" id="81"></div>
-                <div class="box red" id="82"></div>
-                <div class="box green" id="83"></div>
-                <div class="box orange" id="84"></div>
-                <div class="box yellow" id="85"></div>
+                <div class="box purple" id="sq80"></div>
+                <div class="box blue" id="sq81"></div>
+                <div class="box red" id="sq82"></div>
+                <div class="box green" id="sq83"></div>
+                <div class="box orange" id="sq84"></div>
+                <div class="box yellow" id="sq85"></div>
                 <div id="hidden"></div>
-                <div class="box green" id="89"></div>
-                <div id="hidden"></div>
-                <div id="hidden"></div>
-                <div id="hidden"></div>
-                <div class="box green" id="95"></div>
+                <div class="box green" id="sq89"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div class="box green" id="101"></div>
+                <div class="box green" id="sq95"></div>
+                <div id="hidden"></div>
+                <div id="hidden"></div>
+                <div id="hidden"></div>
+                <div class="box green" id="sq101"></div>
 
                 <!-- row 15 -->
                 <div id="hidden"></div>
@@ -311,15 +303,15 @@
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div class="box orange" id="90"></div>
-                <div class="box yellow" id="91"></div>
-                <div class="box purple" id="92"></div>
-                <div class="box blue" id="93"></div>
-                <div class="box red" id="94"></div>
+                <div class="box orange" id="sq90"></div>
+                <div class="box yellow" id="sq91"></div>
+                <div class="box purple" id="sq92"></div>
+                <div class="box blue" id="sq93"></div>
+                <div class="box red" id="sq94"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div class="box orange" id="102"></div>
+                <div class="box orange" id="sq102"></div>
 
                 <!-- row 16 -->
                 <div id="hidden"></div>
@@ -337,28 +329,28 @@
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
-                <div class="box yellow" id="103"></div>
+                <div class="box yellow" id="sq103"></div>
 
                 <!-- row 17 -->
-                <div class="box green" id="119"></div>
-                <div class="box red" id="118"><img src="/img/SCP682.png" alt="999-tile" width="85%"></div>
-                <div class="box blue" id="117"></div>
-                <div class="box purple" id="116"></div>
-                <div class="box yellow" id="115"></div>
-                <div class="box orange" id="114"></div>
-                <div class="box green" id="113"></div>
-                <div class="box red" id="112"></div>
-                <div class="box blue" id="111"></div>
-                <div class="box purple" id="110"></div>
-                <div class="box yellow" id="109"></div>
-                <div class="box orange" id="108"></div>
-                <div class="box green" id="107"><img src="/img/049Tile-removebg-preview.png" alt="999-tile" width="90%"></div>
-                <div class="box red" id="106"></div>
-                <div class="box blue" id="105"></div>
-                <div class="box purple" id="104"></div>
+                <div class="box green" id="sq119"></div>
+                <div class="box red" id="sq118"><img src="/img/SCP682.png" alt="999-tile" width="85%"></div>
+                <div class="box blue" id="sq117"></div>
+                <div class="box purple" id="sq116"></div>
+                <div class="box yellow" id="sq115"></div>
+                <div class="box orange" id="sq114"></div>
+                <div class="box green" id="sq113"></div>
+                <div class="box red" id="sq112"></div>
+                <div class="box blue" id="sq111"></div>
+                <div class="box purple" id="sq110"></div>
+                <div class="box yellow" id="sq109"></div>
+                <div class="box orange" id="sq108"></div>
+                <div class="box green" id="sq107"><img src="/img/049Tile-removebg-preview.png" alt="999-tile" width="90%"></div>
+                <div class="box red" id="sq106"></div>
+                <div class="box blue" id="sq105"></div>
+                <div class="box purple" id="sq104"></div>
 
                 <!-- row 18 -->
-                <div class="box orange" id="120"></div>
+                <div class="box orange" id="sq120"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
@@ -376,7 +368,7 @@
                 <div id="hidden"></div>
 
                 <!-- row 19 -->
-                <div class="box yellow" id="121"></div>
+                <div class="box yellow" id="sq121"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
@@ -394,7 +386,7 @@
                 <div id="hidden"></div>
 
                 <!-- row 20 -->
-                <div class="box purple" id="122"></div>
+                <div class="box purple" id="sq122"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
@@ -412,19 +404,19 @@
                 <div id="hidden"></div>
 
                 <!-- row 21 -->
-                <div class="box blue" id="123"></div>
-                <div class="box red" id="124"></div>
-                <div class="box green" id="125"></div>
-                <div class="box orange" id="126"></div>
-                <div class="box yellow" id="127"></div>
-                <div class="box purple" id="128"></div>
-                <div class="box blue" id="129"></div>
-                <div class="box red" id="130"></div>
-                <div class="box green" id="131"></div>
-                <div class="box orange" id="132"></div>
-                <div class="box yellow" id="133"></div>
-                <div class="box purple" id="134"></div>
-                <div class="box omni" id="135"></div>
+                <div class="box blue" id="sq123"></div>
+                <div class="box red" id="sq124"></div>
+                <div class="box green" id="sq125"></div>
+                <div class="box orange" id="sq126"></div>
+                <div class="box yellow" id="sq127"></div>
+                <div class="box purple" id="sq128"></div>
+                <div class="box blue" id="sq129"></div>
+                <div class="box red" id="sq130"></div>
+                <div class="box green" id="sq131"></div>
+                <div class="box orange" id="sq132"></div>
+                <div class="box yellow" id="sq133"></div>
+                <div class="box purple" id="sq134"></div>
+                <div class="box omni" id="sq135"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
                 <div id="hidden"></div>
