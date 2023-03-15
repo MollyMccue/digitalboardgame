@@ -7,8 +7,6 @@ const gameBoard = []; // define game board
 //define variables
 let isWinner, turn, playerOneLocation, playerTwoLocation, playerThreeLocation, playerFourLocation, purpleSquares, greenSquares, blueSquares, orangeSquares, redSquares, yellowSquares, arrowSquares, rrSquares, goodSquares, badSquares, omniSquares
 
-let spin= []
-
 //cached elements
 const resetBtn = document.getElementById('reset-button')
 
