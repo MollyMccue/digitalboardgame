@@ -5,20 +5,10 @@
     /* https://chequered.ink/font-licenses-for-nal-fonts/ */
 }
 
-@font-face {
-    font-family: 'Scream When You\'re Ready To Die';
-    /* src: url('Scream-When-Youre-Ready-To-Die.woff2') format('woff2'),
-        url('Scream-When-Youre-Ready-To-Die.woff') format('woff'); */
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 body{
     background-image: linear-gradient(#C9C9DB, #DDCECE, #5C5F40, #2f2f5d,#2a2a2a);
     background-repeat: no-repeat;
 }
-
 
 header{
     height: 15vh;
@@ -351,4 +341,11 @@ footer .Contact li a:hover{
     justify-content: center;
     grid-column: 14/17;
     grid-row: 2/4;
+}
+
+.bowl {
+   display: flex;
+   justify-content: center;
+   grid-column: 9/11;
+   grid-row: 2/4;
 }
