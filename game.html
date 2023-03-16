@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCPLand</title>
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="preload" href="Scream-When-Youre-Ready-To-Die.woff2" as="font" type="font/woff2" crossorigin> -->
-
+    <link rel="stylesheet" href="cards.css">
 </head>
 <body>
     <header>
@@ -16,23 +15,25 @@
         <div class="buttons">
             <a href="#.html" class="b2">Start</a>
             
-            <a id="reset-button" class="b2">Reset</a>
+            <a href="game.html" id="reset-button" class="b2">Reset</a>
         </div>
     </header>
     
     <div class="click">
-        <div class="Spinner border">
-            <h2>Round:</h2>
+        <div class="cards border">
+            <div class="decks" id="cards">
+                <div id="deck-1" class="card large back shadow"></div>
+                <div id="deck-2" class="card large outline"></div>
+              </div>
+              <button id="card-button" class="btn">Draw Card</button>
             
         </div>
 
         <div class="Players border">
             <label for="Amount"><b>How Many Players will there be:</b></label>
             <select name="num-players" id="players">
-                <option value="p1">1 Player</option>
+                <option value="p1">---------</option>
                 <option value="p2">2 Players</option>
-                <option value="p3">3 Players</option>
-                <option value="p4">4 Players</option>
             </select>
         </div>
 
@@ -50,7 +51,7 @@
     <div id="board">
         
         <container class="play-area">
-            <div class="game-board" id="gridBoard">
+            <div class="game-board">
                 <!-- row 1 -->
                 <div class="circle" id="sq1">Start</div>
                 <div class="box purple" id="sq2"><img src="/img/SCP999.png" alt="999-tile" width="80%"></div>

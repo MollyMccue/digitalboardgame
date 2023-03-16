@@ -1,7 +1,7 @@
 *{
     margin: 0;
-    padding: 0;
-    font-family: 'Martian Mono', monospace;
+    /* padding: 0; */
+    /* font-family: 'Martian Mono', monospace; */
     /* https://chequered.ink/font-licenses-for-nal-fonts/ */
 }
 
@@ -184,27 +184,27 @@ footer .Contact li a:hover{
 }
 
 .red{
-    background-color: red;
+    background-color: rgb(255, 168, 168);
 }
 
 .orange{
-    background-color: orange;
+    background-color: rgb(255, 222, 160);
 }
 
 .yellow{
-    background-color: yellow;
+    background-color: rgb(255, 255, 180);
 }
 
 .green{
-    background-color: green;
+    background-color: rgb(25, 103, 25);
 }
 
 .blue{
-    background-color: blue;
+    background-color: rgb(8, 8, 122);
 }
 
 .purple{
-    background-color: purple;
+    background-color: rgb(80, 22, 80);
 }
 .omni{
     background-image: linear-gradient(blue,red,green,orange,yellow,purple);
@@ -230,7 +230,7 @@ footer .Contact li a:hover{
     height: 30vh;
 }
 
-.Spinner{
+.cards{
     width: 30%;
 }
 
