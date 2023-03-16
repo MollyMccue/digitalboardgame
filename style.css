@@ -130,20 +130,24 @@ footer h5{
 }
 
 footer li{
+    background-color: #EBE5CA;
     list-style: none;
 }
 
 footer .creators li{
     line-height: 80px;
+    background-color: #EBE5CA;
 }
 
 footer .Contact li{
     line-height: 40px;
+    background-color: #EBE5CA;
 }
 
 footer .Contact li a{
     color: #000;
     text-decoration: none;
+    background-color: #EBE5CA;
 }
 
 footer .Contact li a:hover{
@@ -342,9 +346,9 @@ footer .Contact li a:hover{
     grid-row: 9/11;
 }
 
- .ikea {
+.ikea {
     display: flex;
     justify-content: center;
     grid-column: 14/17;
     grid-row: 2/4;
- }
+}
