@@ -222,6 +222,14 @@ footer .Contact li a:hover{
 
 .cards{
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.decks{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .Players{
@@ -257,7 +265,7 @@ footer .Contact li a:hover{
 
 .frog{
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .characters img{

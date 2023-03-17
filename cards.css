@@ -17,254 +17,94 @@
   white-space: nowrap;
   overflow: hidden;
 }
-  .card.small {
-    font-size: 12px; }
-  .card.large {
-    font-size: 26px; }
-  .card.xlarge {
-    font-size: 42px; }
-  .card.no-border {
-    border: 0; }
-  .card.shadow {
-    box-shadow: 2px 2px 3px 0 rgba(41, 41, 41, 0.75); }
-  .card.outline {
-    background-image: none;
-    background-color: rgba(195, 195, 195, 0.5);
-    border: 0.15em dashed #daa520; }
+.card.small {
+  font-size: 12px; 
+}
+
+.card.large {
+  font-size: 26px; 
+}
+
+.card.xlarge {
+  font-size: 42px; 
+}
+
+.card.no-border {
+  border: 0; 
+}
+
+.card.shadow {
+  box-shadow: 2px 2px 3px 0 rgba(41, 41, 41, 0.75); 
+}
+
+.card.outline {
+  background-image: none;
+  background-color: rgba(195, 195, 195, 0.5);
+  border: 0.15em dashed #daa520; }
 
 .card.blue.b01,
 .card.b1,
 .card.bb1 {
-  background-image: url("../images/colors/blue.png") }
+  background-image: url("../img/colors/blue.png") }
 
 .card.green.g01,
 .card.g1,
 .card.gg1 {
-  background-image: url("../images/colors/green.png") }
+  background-image: url("../img/colors/green.png") }
 
 .card.orange.o01,
 .card.o1,
 .card.oo1 {
-  background-image: url("../images/colors/orange.png"); }
+  background-image: url("../img/colors/orange.png"); }
 
 .card.purple.p01,
 .card.p1,
 .card.pp1 {
-  background-image: url("../images/colors/purple.png"); }
+  background-image: url("../img/colors/purple.png"); }
 
 .card.red.r01,
 .card.r1,
 .card.rr1 {
-  background-image: url("../images/colors/red.png"); }
+  background-image: url("../img/colors/red.png"); }
 
 .card.yellow.y01,
 .card.y1,
 .card.yy1 {
-  background-image: url("../images/colors/yellow.png"); }
+  background-image: url("../img/colors/yellow.png"); }
 
-.card.blue.b02,
-.card.b2,
-.card.bb2 {
-  background-image: url("../images/colors/blue.png") }
-  
-.card.green.g02,
-.card.g2,
-.card.gg2 {
-  background-image: url("../images/colors/green.png") }
-  
-.card.orange.o02,
-.card.o2,
-.card.oo2 {
-  background-image: url("../images/colors/orange.png"); }
-  
-.card.purple.p02,
-.card.p2,
-.card.pp2 {
-  background-image: url("../images/colors/purple.png"); }
-  
-.card.red.r02,
-.card.r2,
-.card.rr2 {
-    background-image: url("../images/colors/red.png"); }
-  
-.card.yellow.y02,
-.card.y2,
-.card.yy2 {
-  background-image: url("../images/colors/yellow.png"); }
-
-.card.blue.b03,
-.card.b3,
-.card.bb3 {
-  background-image: url("../images/colors/blue.png") }
-  
-.card.green.g03,
-.card.g3,
-.card.gg3 {
-  background-image: url("../images/colors/green.png") }
-  
-.card.orange.o03,
-.card.o3,
-.card.oo3 {
-  background-image: url("../images/colors/orange.png"); }
-  
-.card.purple.p03,
-.card.p3,
-.card.pp3 {
-  background-image: url("../images/colors/purple.png"); }
-  
-.card.red.r03,
-.card.r3,
-.card.rr3 {
-  background-image: url("../images/colors/red.png"); }
-  
-.card.yellow.y03,
-.card.y3,
-.card.yy3 {
-  background-image: url("../images/colors/yellow.png"); }
-
-.card.blue.b04,
-.card.b4,
-.card.bb4 {
-  background-image: url("../images/colors/blue.png") }
-    
-.card.green.g04,
-.card.g4,
-.card.gg4 {
-  background-image: url("../images/colors/green.png") }
-    
-.card.orange.o04,
-.card.o4,
-.card.oo4 {
-  background-image: url("../images/colors/orange.png"); }
-    
-.card.purple.p04,
-.card.p4,
-.card.pp4 {
-  background-image: url("../images/colors/purple.png"); }
-    
-.card.red.r04,
-.card.r4,
-.card.rr4 {
-  background-image: url("../images/colors/red.png"); }
-    
-.card.yellow.y04,
-.card.y4,
-.card.yy4 {
-  background-image: url("../images/colors/yellow.png"); }
-
-.card.blue.b05,
-.card.b5,
-.card.bb5 {
-  background-image: url("../images/colors/blue.png") }
-    
-.card.green.g05,
-.card.g5,
-.card.gg5 {
-  background-image: url("../images/colors/green.png") }
-    
-.card.orange.o05,
-.card.o5,
-.card.oo5 {
-  background-image: url("../images/colors/orange.png"); }
-    
-.card.purple.p05,
-.card.p5,
-.card.pp5 {
-  background-image: url("../images/colors/purple.png"); }
-    
-.card.red.r05,
-.card.r5,
-.card.rr5 {
-  background-image: url("../images/colors/red.png"); }
-    
-.card.yellow.y05,
-.card.y5,
-.card.yy5 {
-  background-image: url("../images/colors/yellow.png"); }
-
-.card.blue.b06,
-.card.b6,
-.card.bb6 {
-  background-image: url("../images/colors/blue.png") }
-    
-.card.green.g06,
-.card.g6,
-.card.gg6 {
-  background-image: url("../images/colors/green.png") }
-    
-.card.orange.o06,
-.card.o6,
-.card.oo6 {
-  background-image: url("../images/colors/orange.png"); }
-    
-.card.purple.p06,
-.card.p6,
-.card.pp6 {
-  background-image: url("../images/colors/purple.png"); }
-    
-.card.red.r06,
-.card.r6,
-.card.rr6 {
-  background-image: url("../images/colors/red.png"); }
-    
-.card.yellow.y06,
-.card.y6,
-.card.yy6 {
-  background-image: url("../images/colors/yellow.png"); }
-
-.card.blue.b07,
-.card.b7,
-.card.bb7 {
-  background-image: url("../images/colors/blue.png") }
-    
-.card.green.g07,
-.card.g7,
-.card.gg7 {
-  background-image: url("../images/colors/green.png") }
-    
-.card.orange.o07,
-.card.o7,
-.card.oo7 {
-  background-image: url("../images/colors/orange.png"); }
-    
-.card.purple.p07,
-.card.p7,
-.card.pp7 {
-  background-image: url("../images/colors/purple.png"); }
-    
-.card.red.r07,
-.card.r7,
-.card.rr7 {
-  background-image: url("../images/colors/red.png"); }
-  
-.card.yellow.y07,
-.card.y7,
-.card.yy7 {
-  background-image: url("../images/colors/yellow.png"); }
 
 .card.back {
-  background-image: url("../images/colors/back.png"); }
-
+  background-image: url("../img/colors/back.png"); 
+}
 
 .card.west,
 .card.W {
-  transform: rotate(90deg);
-  margin: auto 0.75em; }
-  .card.west.shadow,
-  .card.W.shadow {
-    box-shadow: 2px -2px 3px 0 rgba(41, 41, 41, 0.75); }
+transform: rotate(90deg);
+margin: auto 0.75em; 
+}
+
+.card.west.shadow,
+.card.W.shadow {
+  box-shadow: 2px -2px 3px 0 rgba(41, 41, 41, 0.75); 
+}
 
 .card.north,
 .card.N {
-  transform: rotate(180deg); }
-  .card.north.shadow,
-  .card.N.shadow {
-    box-shadow: -2px -2px 3px 0 rgba(41, 41, 41, 0.75); }
+  transform: rotate(180deg); 
+}
+
+.card.north.shadow,
+.card.N.shadow {
+  box-shadow: -2px -2px 3px 0 rgba(41, 41, 41, 0.75); 
+}
 
 .card.east,
 .card.E {
   transform: rotate(270deg);
-  margin: auto 0.75em; }
-  .card.east.shadow,
-  .card.E.shadow {
-    box-shadow: -2px 2px 3px 0 rgba(41, 41, 41, 0.75); }
+  margin: auto 0.75em; 
+}
+
+.card.east.shadow,
+.card.E.shadow {
+  box-shadow: -2px 2px 3px 0 rgba(41, 41, 41, 0.75); 
+}
