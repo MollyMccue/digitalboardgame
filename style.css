@@ -396,6 +396,13 @@ footer .Contact li a:hover{
     grid-row: 19/19;
 }
 
+.blank {
+    display: flex;
+    justify-content: center;
+    grid-column: 14/17;
+    grid-row: 2/4;
+}
+
 /* player tokens */
 .playerOneToken {
     background-image: url("../img/frog3.png");
