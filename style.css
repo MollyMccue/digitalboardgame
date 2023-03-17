@@ -349,3 +349,45 @@ footer .Contact li a:hover{
    grid-column: 9/11;
    grid-row: 2/4;
 }
+
+.snake {
+    display: flex;
+    justify-content: center;
+    grid-column: 10/12;
+    grid-row: 9/10;
+}
+
+.blob {
+    display: flex;
+    justify-content: center;
+    grid-column: 9/12;
+    grid-row: 13/13;
+}
+
+.rat {
+    display: flex;
+    justify-content: center;
+    grid-column: 3/5;
+    grid-row: 15/16;
+}
+
+.birdman {
+    display: flex;
+    justify-content: center;
+    grid-column: 14/15;
+    grid-row: 15/16;
+}
+
+.tree {
+    display: flex;
+    justify-content: center;
+    grid-column: 14/15;
+    grid-row: 14/15;
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+    grid-column: 3/4;
+    grid-row: 19/19;
+}
