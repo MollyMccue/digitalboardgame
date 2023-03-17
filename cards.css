@@ -2,7 +2,6 @@
 .card {
   box-sizing: border-box;
   display: inline-block;
-  margin: 5px 5px 50px 5px;
   cursor: pointer;
   font-size: inherit;
   width: 4.0em;
@@ -22,7 +21,7 @@
 }
 
 .card.large {
-  font-size: 26px; 
+  font-size: 26px;
 }
 
 .card.xlarge {
@@ -34,13 +33,14 @@
 }
 
 .card.shadow {
-  box-shadow: 2px 2px 3px 0 rgba(41, 41, 41, 0.75); 
+  box-shadow: 2px 2px 3px 0 rgba(41, 41, 41, 0.75);
 }
 
 .card.outline {
   background-image: none;
   background-color: rgba(195, 195, 195, 0.5);
-  border: 0.15em dashed #daa520; }
+  border: 0.15em dashed #7b7b7b;
+  }
 
 .card.blue.b01,
 .card.b1,
@@ -74,7 +74,7 @@
 
 
 .card.back {
-  background-image: url("../img/colors/back.png"); 
+  background-image: url("../img/colors/back.png");
 }
 
 .card.west,

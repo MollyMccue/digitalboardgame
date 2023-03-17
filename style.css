@@ -1,7 +1,7 @@
 *{
     margin: 0;
-    /* padding: 0; */
-    /* font-family: 'Martian Mono', monospace; */
+    padding: 0;
+    font-family: 'Martian Mono', monospace;
     /* https://chequered.ink/font-licenses-for-nal-fonts/ */
 }
 
@@ -225,11 +225,7 @@ footer .Contact li a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
-
-.decks{
-    display: flex;
-    justify-content: space-evenly;
+    align-items: center;
 }
 
 .Players{
@@ -405,4 +401,31 @@ footer .Contact li a:hover{
     justify-content: center;
     grid-column: 14/17;
     grid-row: 2/4;
+}
+
+/* player tokens */
+.playerOneToken {
+    background-image: url("../img/frog3.png");
+    height: 45%;
+    width: 45%;
+    background-size: cover;
+}
+
+.playerTwoToken {
+    background-image: url("../img/frog2.png");
+    height: 45%;
+    width: 45%;
+    background-size: cover;
+}
+  /* card button */
+.btn {
+    color: white;
+    background-color: #000;
+    font-weight: bold;
+    width: 50%;
+}
+
+.btn:hover{
+    color: #000;
+    background-color: #fff;
 }
