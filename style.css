@@ -399,3 +399,10 @@ footer .Contact li a:hover{
     grid-column: 3/4;
     grid-row: 19/19;
 }
+
+.blank {
+    display: flex;
+    justify-content: center;
+    grid-column: 14/17;
+    grid-row: 2/4;
+}
