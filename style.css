@@ -29,6 +29,16 @@ header .button{
     width: 10vw;
 }
 
+header a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .buttons{
+    margin-right: 1vw;
+}
+
 .button,.b2{
     width: 10vw;
     height: 5vh;
@@ -63,6 +73,10 @@ header h1{
     align-items: center;
     justify-content: center;
     width: 75vw;
+}
+
+header a img{
+    height: 10vh;
 }
 
 .Heroimg{
