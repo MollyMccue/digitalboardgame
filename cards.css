@@ -6,10 +6,8 @@
   font-size: inherit;
   width: 4.0em;
   height: 5.5em;
-  background-color: #fff;
   border-radius: 0.20em;
   border: 1px solid #c3c3c3;
-  background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   text-indent: 100%;
@@ -45,36 +43,36 @@
 .card.blue.b01,
 .card.b1,
 .card.bb1 {
-  background-image: url("../img/colors/blue.png") }
+  background-image: url("./img/colors/blue.png") }
 
 .card.green.g01,
 .card.g1,
 .card.gg1 {
-  background-image: url("../img/colors/green.png") }
+  background-image: url("./img/colors/green.png") }
 
 .card.orange.o01,
 .card.o1,
 .card.oo1 {
-  background-image: url("../img/colors/orange.png"); }
+  background-image: url("./img/colors/orange.png"); }
 
 .card.purple.p01,
 .card.p1,
 .card.pp1 {
-  background-image: url("../img/colors/purple.png"); }
+  background-image: url("./img/colors/purple.png"); }
 
 .card.red.r01,
 .card.r1,
 .card.rr1 {
-  background-image: url("../img/colors/red.png"); }
+  background-image: url("./img/colors/red.png"); }
 
 .card.yellow.y01,
 .card.y1,
 .card.yy1 {
-  background-image: url("../img/colors/yellow.png"); }
+  background-image: url("./img/colors/yellow.png"); }
 
 
 .card.back {
-  background-image: url("../img/colors/back.png");
+  background-image: url("img/colors/back.png");
 }
 
 .card.west,

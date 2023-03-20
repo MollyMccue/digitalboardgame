@@ -168,17 +168,7 @@ footer .Contact li a:hover{
     margin-bottom: 100px;
   }
 
-.circle{
-    position:relative;
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
-    border: 1px solid #ffffff;
-    background-color: #d8d8d8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .box {
     border: .05px solid rgb(255, 255, 255);
@@ -213,6 +203,10 @@ footer .Contact li a:hover{
 .omni{
     background-image: linear-gradient(#08087A,#FFA8A8,#196719,#ffdea0,#FFFFB4,#501650);
     border: 0 transparent;
+}
+
+.gray{
+    background-color: gray;
 }
 
 #hidden{
@@ -419,14 +413,14 @@ footer .Contact li a:hover{
 
 /* player tokens */
 .playerOneToken {
-    background-image: url("../img/frog3.png");
+    background-image: url("img/Frog3.png");
     height: 45%;
     width: 45%;
     background-size: cover;
 }
 
 .playerTwoToken {
-    background-image: url("../img/frog2.png");
+    background-image: url("img/Frog2.png");
     height: 45%;
     width: 45%;
     background-size: cover;
