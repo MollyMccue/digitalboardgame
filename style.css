@@ -411,6 +411,27 @@ footer .Contact li a:hover{
     grid-row: 2/4;
 }
 
+.windowroom {
+    display: flex;
+    justify-content: center;
+    grid-column: 3/5;
+    grid-row: 3/4;
+}
+
+.stairsroom {
+    display: flex;
+    justify-content: center;
+    grid-column: 3/5;
+    grid-row: 11/12;
+}
+
+.pizza {
+    display: flex;
+    justify-content: center;
+    grid-column: 14/16;
+    grid-row: 11/11;
+}
+
 /* player tokens */
 .playerOneToken {
     background-image: url("img/Frog3.png");
