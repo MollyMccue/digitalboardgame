@@ -339,6 +339,8 @@ footer .Contact li a:hover{
     justify-content: center;
     grid-column: 7;
     grid-row: 2/4;
+    background-image: url(img/Ladder.png);
+    background-size: cover;
 }
 
 .ladder2{
@@ -346,7 +348,28 @@ footer .Contact li a:hover{
     justify-content: center;
     grid-column: 9;
     grid-row: 9/11;
+    background-image: url(img/Ladder.png);
+    background-size: cover;
 }
+
+.ladder3{
+    display: flex;
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 15/17;
+    background-image: url(img/Ladder.png);
+    background-size: cover;
+}
+
+.ladder4{
+    display: flex;
+    justify-content: center;
+    grid-column: 6;
+    grid-row: 15/17;
+    background-image: url(img/Ladder.png);
+    background-size: cover;
+}
+
 
 .ikea {
     display: flex;
@@ -379,8 +402,8 @@ footer .Contact li a:hover{
 .rat {
     display: flex;
     justify-content: center;
-    grid-column: 3/5;
-    grid-row: 15/16;
+    grid-column: 2/6;
+    grid-row: 15/17;
 }
 
 .birdman {
@@ -457,4 +480,28 @@ footer .Contact li a:hover{
 .btn:hover{
     color: #000;
     background-color: #fff;
+}
+
+#sq7{
+    background-image: url(/img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sq38{
+    background-image: url(/img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sq80{
+    background-image: url(/img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sq85{
+    background-image: url(/img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
