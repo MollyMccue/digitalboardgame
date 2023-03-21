@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 .card {
   box-sizing: border-box;
   display: inline-block;
@@ -14,8 +15,9 @@
   white-space: nowrap;
   overflow: hidden;
 }
+
 .card.small {
-  font-size: 12px; 
+  font-size: 12px;
 }
 
 .card.large {
@@ -23,52 +25,206 @@
 }
 
 .card.xlarge {
-  font-size: 42px; 
+  font-size: 42px;
 }
 
 .card.no-border {
-  border: 0; 
+  border: 0;
 }
 
-.card.shadow {
-  box-shadow: 2px 2px 3px 0 rgba(41, 41, 41, 0.75);
-}
 
 .card.outline {
   background-image: none;
   background-color: rgba(195, 195, 195, 0.5);
   border: 0.15em dashed #7b7b7b;
-  }
+}
+
+/* CHANGE THE ID'S TO MATCH THE CORRECT COLORS */
 
 .card.blue.b01,
+.card.blue.b02,
+.card.blue.b03,
+.card.blue.b04,
+.card.blue.b05,
+.card.blue.b06,
+.card.blue.b07,
+.card.blue.b08,
+.card.blue.b09,
+.card.blue.b10,
+.card.blue.b11,
+.card.blue.b12,
+.card.blue.b13,
+.card.blue.b14,
+.card.blue.b15,
+.card.blue.b16,
+.card.blue.b17,
+.card.blue.b18,
+.card.blue.b19,
+.card.blue.b20,
 .card.b1,
+.card.b2,
+.card.b3,
+.card.b4,
+.card.b5,
+.card.b6,
+.card.b7,
+.card.b8,
+.card.b9,
+.card.b10,
+.card.b11,
+.card.b12,
+.card.b13,
+.card.b14,
+.card.b15,
+.card.b16,
+.card.b17,
+.card.b18,
+.card.b19,
+.card.b20,
+.card.b21,
+.card.b22,
 .card.bb1 {
-  background-image: url("img/colors/blue.png") }
+  background-image: url("img/colors/yellow.png")
+}
 
 .card.green.g01,
 .card.g1,
+.card.g2,
+.card.g3,
+.card.g4,
+.card.g5,
+.card.g6,
+.card.g7,
+.card.g8,
+.card.g9,
+.card.g10,
+.card.g11,
+.card.g12,
+.card.g13,
+.card.g14,
+.card.g15,
+.card.g16,
+.card.g17,
+.card.g18,
+.card.g19,
+.card.g20,
+.card.g21,
+.card.g22,
 .card.gg1 {
-  background-image: url("img/colors/green.png") }
+  background-image: url("img/colors/blue.png")
+}
 
 .card.orange.o01,
 .card.o1,
+.card.o2,
+.card.o3,
+.card.o4,
+.card.o5,
+.card.o6,
+.card.o7,
+.card.o8,
+.card.o9,
+.card.o10,
+.card.o11,
+.card.o12,
+.card.o13,
+.card.o14,
+.card.o15,
+.card.o16,
+.card.o17,
+.card.o18,
+.card.o19,
+.card.o20,
+.card.o21,
+.card.o22,
 .card.oo1 {
-  background-image: url("img/colors/orange.png"); }
+  background-image: url("img/colors/red.png");
+}
 
 .card.purple.p01,
 .card.p1,
+.card.p2,
+.card.p3,
+.card.p4,
+.card.p5,
+.card.p6,
+.card.p7,
+.card.p8,
+.card.p9,
+.card.p10,
+.card.p11,
+.card.p12,
+.card.p13,
+.card.p14,
+.card.p15,
+.card.p16,
+.card.p17,
+.card.p18,
+.card.p19,
+.card.p20,
+.card.p21,
+.card.p22,
+.card.p23,
 .card.pp1 {
-  background-image: url("img/colors/purple.png"); }
+  background-image: url("img/colors/orange.png");
+}
 
 .card.red.r01,
 .card.r1,
+.card.r2,
+.card.r3,
+.card.r4,
+.card.r5,
+.card.r6,
+.card.r7,
+.card.r8,
+.card.r9,
+.card.r10,
+.card.r11,
+.card.r12,
+.card.r13,
+.card.r14,
+.card.r15,
+.card.r16,
+.card.r17,
+.card.r18,
+.card.r19,
+.card.r20,
+.card.r21,
+.card.r22,
 .card.rr1 {
-  background-image: url("img/colors/red.png"); }
+  background-image: url("img/colors/purple.png");
+}
 
 .card.yellow.y01,
 .card.y1,
+.card.y2,
+.card.y3,
+.card.y4,
+.card.y5,
+.card.y6,
+.card.y7,
+.card.y8,
+.card.y9,
+.card.y10,
+.card.y11,
+.card.y12,
+.card.y13,
+.card.y14,
+.card.y15,
+.card.y16,
+.card.y17,
+.card.y18,
+.card.y19,
+.card.y20,
+.card.y21,
+.card.y22,
 .card.yy1 {
-  background-image: url("img/colors/yellow.png"); }
+  background-image: url("img/colors/green.png");
+}
+
+
+
 
 
 .card.back {
@@ -77,32 +233,32 @@
 
 .card.west,
 .card.W {
-transform: rotate(90deg);
-margin: auto 0.75em; 
+  transform: rotate(90deg);
+  margin: auto 0.75em;
 }
 
 .card.west.shadow,
 .card.W.shadow {
-  box-shadow: 2px -2px 3px 0 rgba(41, 41, 41, 0.75); 
+  box-shadow: 2px -2px 3px 0 rgba(41, 41, 41, 0.75);
 }
 
 .card.north,
 .card.N {
-  transform: rotate(180deg); 
+  transform: rotate(180deg);
 }
 
 .card.north.shadow,
 .card.N.shadow {
-  box-shadow: -2px -2px 3px 0 rgba(41, 41, 41, 0.75); 
+  box-shadow: -2px -2px 3px 0 rgba(41, 41, 41, 0.75);
 }
 
 .card.east,
 .card.E {
   transform: rotate(270deg);
-  margin: auto 0.75em; 
+  margin: auto 0.75em;
 }
 
 .card.east.shadow,
 .card.E.shadow {
-  box-shadow: -2px 2px 3px 0 rgba(41, 41, 41, 0.75); 
+  box-shadow: -2px 2px 3px 0 rgba(41, 41, 41, 0.75);
 }
