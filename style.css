@@ -456,15 +456,6 @@ footer .Contact li a:hover{
     grid-row: 11/11;
 }
 
-.bkgblob {
-    display: flex;
-    justify-content: center;
-    grid-column:2;
-    grid-row:1/2;
-    background-image: url(img/SCP999.png);
-    background-size: cover;
-}
-
 /* player tokens */
 .playerOneToken {
     background-image: url("img/Frog3.png");
