@@ -226,6 +226,7 @@ footer .Contact li a:hover{
     display: flex;
     flex-direction: row;
     height: 30vh;
+    background-color: lightgray;
 }
 
 .cards{
@@ -505,3 +506,13 @@ footer .Contact li a:hover{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }

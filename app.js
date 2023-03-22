@@ -1,3 +1,19 @@
+
+//class click
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHead");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+
 // setup game board for play
 const board = []; // define game board
     for(let i = 0; i < class box{length}; i++) {
