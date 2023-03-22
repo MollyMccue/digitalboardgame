@@ -40,7 +40,7 @@ const startSquare = document.getElementById('sq1')
 const playerOneToken = document.createElement("div")
 const playerTwoToken = document.createElement("div")
 
-const winSquare = document.getElementById('sq135')
+const winSquare = document.getElementById('sq132')
 
 //event listener
 resetBtn.addEventListener('click', init);
