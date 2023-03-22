@@ -20,6 +20,8 @@ const board = []; // define game board
         board.push(0);
     };
 
+const ladders = []
+
 //define variables
 let isWinner, turn, playerOneLocation, playerTwoLocation, purpleSquares, greenSquares, blueSquares, orangeSquares, redSquares, yellowSquares, arrowSquares, rrSquares, goodSquares, badSquares, omniSquares
 
@@ -169,6 +171,7 @@ function cardToBoard(cardPicked) {
   }
 
 //define render
+
 function render() {
     if (turn === 1) {
         boardSquares.forEach((square, idx) => {
@@ -188,7 +191,11 @@ function render() {
 }
 
 if (isWinner) {
-    alert(Winner)
+  if (document.getElementById('sq132') = document.getElementsByClassName('playerOneToken').parentElement) {
+    alert('PLAYER ONE WINNER')
+  } else if(document.getElementById('sq132') = document.getElementsByClassName('playerTwoToken').parentElement) {
+    alert('PLAYER TWO WINNER')
+}
 }
 
 //define special actions
@@ -208,7 +215,6 @@ const actions = {
               } else if(ladders[i][0]===playerTwoLocation){
                 playerTwoLocation=[i][1]
               }
-              
             }
             console.log('laddered');
         }
