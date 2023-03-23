@@ -190,6 +190,7 @@ function render() {
     }
 }
 
+
 if (isWinner) {
   if (document.getElementById('sq132') = document.getElementsByClassName('playerOneToken').parentElement) {
     alert('PLAYER ONE WINNER')
@@ -241,6 +242,6 @@ const specialSpaces = {
     }
 };
 
-
-actions.ladder.action(5);
-
+if(playerOneLocation == document.getElementById("sq7")){
+  let playerOneLocation , document,getElementById,sq20
+}
