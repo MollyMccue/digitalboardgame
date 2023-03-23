@@ -242,3 +242,6 @@ const specialSpaces = {
     }
 };
 
+if(playerOneLocation == document.getElementById("sq7")){
+  let playerOneLocation , document,getElementById,sq20
+}
