@@ -87,7 +87,24 @@ header a img{
     background-size: cover;
 }
 
-footer, ul, h5, li, img, a{
+.display{
+    display: flex;
+    justify-content: center;
+}
+
+.CEO{
+    width: 20vw;
+    height: 40vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+    border: gold solid 3px;
+    font-size: 5vh;
+    margin-bottom: 10vh;
+}
+
+footer, ul, footer h5, li, img, a{
     background-color: #EBE5CA;
 }
 
@@ -152,11 +169,6 @@ footer .Contact li a{
     color: #000;
     text-decoration: none;
     background-color: #EBE5CA;
-}
-
-footer .Contact li a:hover{
-    color: green, red, blue, yellow;
-    text-shadow: #000 13px;
 }
 
 .game-board {
