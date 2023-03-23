@@ -190,6 +190,7 @@ function render() {
     }
 }
 
+
 if (isWinner) {
   if (document.getElementById('sq132') = document.getElementsByClassName('playerOneToken').parentElement) {
     alert('PLAYER ONE WINNER')
@@ -240,7 +241,4 @@ const specialSpaces = {
         spaces: []
     }
 };
-
-
-actions.ladder.action(5);
 
