@@ -538,33 +538,46 @@ footer .Contact li a:hover{
     background-size:75%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-#sq38{
-    background-image: url(/img/arrow.png);
+#sq87 {
+    background-image: url(img/_.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size:50%;
 }
 
-#sq80{
-    background-image: url(/img/arrow.png);
+#sq94 {
+    background-image: url(img/Frame_67-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size:95%;
 }
 
-#sq85{
-    background-image: url(/img/arrow.png);
+#sq107 {
+    background-image: url(img/049Tile-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size:90%;
+}
+
+#sq115 {
+    background-image: url(img/-.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:50%;
+}
+
+#sq118 {
+    background-image: url(img/SCP682.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:90%;
+}
+
+#sq128 {
+    background-image: url(img/Frame_91-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:110%;
 }
 
 .sticky {
@@ -577,73 +590,20 @@ footer .Contact li a:hover{
     padding-top: 102px;
 }
 
-#sq2{
-    background-image: url(/img/SCP999.png);
-    background-size: contain;
+#sq38 {
+    background-image: url(/img/arrow.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#sq46,
-#sq49{
-    background-image: url(/img/3008Tile-removebg-preview.png);
-    background-size: contain;
+#sq80 {
+    background-image: url(/img/arrow.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#sq67{
-    background-image: url(/img/snakereptile.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#sq118{
-    background-image: url(/img/SCP682.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#sq81{
-    background-image: url(/img/SCP-087-b\ 1.jpg);
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#sq87{
-    background-image: url(/img/_.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#sq115{
-    background-image: url(/img/-.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#sq94{
-    background-image: url(/img/Frame_67-removebg-preview.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#sq107{
-    background-image: url(/img/049Tile-removebg-preview.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#sq128{
-    background-image: url(/img/Frame_91-removebg-preview.png);
-    background-size: contain;
+#sq85 {
+    background-image: url(/img/arrow.png);
     background-repeat: no-repeat;
     background-position: center;
 }
