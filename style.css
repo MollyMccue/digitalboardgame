@@ -106,7 +106,7 @@ article{
     
     color: transparent;
     width: 20vw;
-    height: 40vh;
+    height: fit-content;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -125,6 +125,11 @@ article{
 .CEO img{
     width: 60%;
     height: auto;
+}
+
+.CEO h6{
+    display: flex;
+    text-align: center;
 }
 
 footer, ul, footer h5, li, img, a{
