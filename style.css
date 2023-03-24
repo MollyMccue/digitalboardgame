@@ -50,12 +50,13 @@ header .buttons{
     color: #000;
     text-decoration: none;
     font-size: 200%;
+    border: #000 2px solid;
 }
 
 .button:hover,
 .b2:hover,.twobutton:hover{
-    background-color: #9d9d9d;
-    color: #fff;
+    background-color: #d9d9d9;
+    color: #000;
 }
 
 .buttons{
@@ -218,23 +219,15 @@ footer .Contact li a{
 }
 
 .green{
-    background-color: #196719;
+    background-color: #103410;
 }
 
 .blue{
-    background-color: #08087A;
+    background-color: #161647;
 }
 
 .purple{
     background-color: #501650;
-}
-.omni{
-    background-image: linear-gradient(#08087A,#FFA8A8,#196719,#ffdea0,#FFFFB4,#501650);
-    border: 0 transparent;
-}
-
-.gray{
-    background-color: gray;
 }
 
 #hidden{
@@ -305,7 +298,7 @@ footer .Contact li a{
 
 .characters img{
     align-items: center;
-    width: 25%;
+    width: 15%;
     background-color: transparent;
 }
 

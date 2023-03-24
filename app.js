@@ -243,7 +243,5 @@ const specialSpaces = {
 };
 
 if(playerOneLocation == document.getElementById("sq7")){
-  square.appendChild(playerOneToken)== document.getElementById("sq20")
-} if(playerTwoLocation == document.getElementById("sq7")){
-  square.getElementById("sq20").appendChild(playerTwoToken)
+   playerOneLocation = document.getElementById("sq20")
 } 
