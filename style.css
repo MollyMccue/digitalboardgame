@@ -640,3 +640,15 @@ footer .Contact li a{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.buttons a{
+    background-color: crimson;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+}
+
+.buttons a:hover{
+    background-color: maroon;
+    color: white;
+}
